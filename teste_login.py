@@ -4,10 +4,11 @@ import time
 
 driver = webdriver.Chrome()
 
-driver.get("C:/Users/pedro_g_costa/Documents/teste_de_sistemas/login.html")
+driver.get("file:///C:/Users/pedro_g_costa/Documents/GitHub/teste_de_sistemas/Testes-de-sistemas/login.html")
+
 
 time.sleep(1)
-time.sleep(8)
+
 
  # Preenche o campo de usuário
 usuario_input = driver.find_element(By.ID, "username")
